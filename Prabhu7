@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Krishna Ji Fashion</title>
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f8f8f8;
+}
+header{
+    background:black;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+nav{
+    background:#111;
+    text-align:center;
+    padding:10px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+.hero{
+    background:linear-gradient(to right,#000,#444);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+.hero h1{
+    font-size:36px;
+}
+.section{
+    padding:40px 20px;
+    text-align:center;
+}
+.products{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+.card{
+    background:white;
+    width:250px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+.call-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 20px;
+    background:gold;
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+@media(max-width:768px){
+    .products{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>Krishna Ji Fashion</h2>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+    <h1>Welcome to Krishna Ji Fashion</h1>
+    <p>Latest Boys & Girls Trending Collection Available Here</p>
+    <a class="call-btn" href="tel:9352421391">Call Now</a>
+</section>
+
+<section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Krishna Ji Fashion is located at Chamu Market, A Road. 
+    We provide stylish boys dresses and girls new trending articles 
+    at affordable prices with best quality.</p>
+</section>
+
+<section class="section" id="products">
+    <h2>Our Collection</h2>
+    <div class="products">
+        
+        <div class="card">
+            <img src="https://via.placeholder.com/250x300" alt="Boys Dress">
+            <h3>Boys Stylish Dress</h3>
+            <p>Starting ₹1000</p>
+        </div>
+
+        <div class="card">
+            <img src="https://via.placeholder.com/250x300" alt="Girls Dress">
+            <h3>Girls Trending Articles</h3>
+            <p>Starting ₹1000</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Phone:</strong> 9352421391</p>
+    <p><strong>Location:</strong> Chamu Market, A Road</p>
+    <a class="call-btn" href="tel:9352421391">Call Now</a>
+</section>
+
+<footer>
+    <p>© 2026 Krishna Ji Fashion | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
